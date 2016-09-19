@@ -23,7 +23,7 @@
 }
 
 .main-nav ul {
-  /* NOTE: We are by defualt hiding the main nav list because we are
+  /* NOTE: We are by default hiding the main nav list because we are
       expecting the UI to be mobile, therefore our new icon menu
       takes its place. */
   display: none;
@@ -62,10 +62,31 @@
 }
 
 /* TODO: Now add styles for how things should look on a larger screen,
-   (hint: min is in!):
-@media screen...
-         - Hide the hamburger.
-         - Display our unordered list (aka our nav links).
-         - The main-nav should be all on one row, with padding spaced better
-           for a larger screen.
-*/
+   (hint: min is in!): */
+@media only screen and (min-width: 900px) {
+
+  .icon-menu {
+    display: none;
+  }
+
+  .main-nav ul {
+    float: right;
+    display: inline-block;
+    padding: 5px;
+    list-style: none;
+    clear: both;
+  }
+
+  .main-nav li:hover {
+    background-color: lightgoldenrodyellow;
+  }
+
+  .main-nav li {
+    display: inline-block;
+    margin-right: .4em;
+    font-size: 1.5em;
+    padding: 1em .5em;
+    border-bottom: 1px solid #ccc;
+  }
+  
+}
