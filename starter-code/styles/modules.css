@@ -88,5 +88,10 @@
     padding: 1em .5em;
     border-bottom: 1px solid #ccc;
   }
-  
+
+  img {
+      float: right;
+      clear: both;
+  }
+
 }
