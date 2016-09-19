@@ -10,6 +10,10 @@
 }
 
 .icon-menu {
+  text-align: right;
+  margin-top: 28px;
+  margin-right: 12px;
+  font-size: 1.5em;
   /* TODO: Add styles for the icon-menu class (whether it be the
       hamburger font icon or an image of your choosing). It should be
       bigger, and off to the right. */
