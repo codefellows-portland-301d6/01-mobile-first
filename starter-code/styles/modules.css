@@ -69,7 +69,7 @@
            for a larger screen.
 */
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 540px) {
 
   .icon-menu {
     display: none;
@@ -83,6 +83,28 @@
   .main-nav li {
     display: inline-block;
     padding: 0.5em 0.4em;
+  }
+
+}
+
+@media only screen and (min-width: 780px) {
+
+  .main-nav li {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #8dc2f6;
+  }
+
+  .heading-group-h1 {
+    float: none;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+  }
+
+  h1 {
+    margin: 0;
+    padding-top: 0.67em;
   }
 
 }
