@@ -1,7 +1,7 @@
 /* TODO: Add a rule for images, so they never exceed their container's width. */
-/*.container {
-  width: 20%;
-}*/
+img {
+  max-width: 80%;
+}
 
 
 body {
