@@ -13,7 +13,7 @@
 }
 
 .heading-group-h1 {
-  max-width: 80%;
+  max-width: 100%;
 }
 
 #about {
@@ -30,6 +30,10 @@
   .heading-group-h1 {
     padding: .1em .1em .1em 2em;
     float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
   }
 
   #filters select {
