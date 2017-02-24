@@ -10,6 +10,10 @@
 }
 
 .icon-menu {
+  text-align: right;
+  margin-top: 28px;
+  margin-right: 12px;
+  font-size: 1.5em;
   /* TODO: Add styles for the icon-menu class (whether it be the
       hamburger font icon or an image of your choosing). It should be
       bigger, and off to the right. */
@@ -57,6 +61,29 @@
   font-weight: bold;
   text-decoration: none;
 }
+
+@media only screen and (min-width: 520px) {
+
+  .icon-menu {
+    display: none;
+  }
+
+  .main-nav ul {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .main-nav li {
+    display: inline-block;
+    margin-right: 0;
+    width: 20%;
+    padding: 2%;
+    text-align: center;
+  }
+
+}
+
 
 /* TODO: Now add styles for how things should look on a larger screen,
    (hint: min is in!):
